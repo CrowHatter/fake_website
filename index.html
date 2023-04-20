@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="main.js"></script>
+<header>
+    <div class="upLink">
+        <div style="width: 75px">
+            <a href="https://www.dcard.tw/f"><img src="logo.8b5bbef2.svg" id="DC_logo" alt="DC_logo"></a>
+        </div>
+
+    </div>
+</header>
+
+<div class="all_thing">
+    <div class="left_thing">
+        <div class="dcard_QR">
+            <img src="border.webp" id="border" alt="border">
+            <img src="QRcode.webp" id="qrcode" alt="qrcode">
+            <p id="qrText">立即掃描下載 Dcard App！</p>
+        </div>
+
+        <div class="content">
+            <h1 id="left">年輕人都在 Dcard 上討論</h1>
+            <p>不想錯過任何有趣的話題嗎？<br>趕快加入我們吧！</p>
+            <a href="https://www.dcard.tw/f">先看討論區</a>
+        </div>
+
+        <div class="market_icon_block">
+            <a href="https://reurl.cc/pLRe0Q"><img src="googlePlayIcon.webp" class="marketIcon" alt="googlePlayIcon"></a>
+            <a href="https://reurl.cc/Adlvv3"><img src="appStoreIcon.webp" class="marketIcon" alt="appStoreIcon"></a>
+        </div>
+    </div>
+
+    <div class="right_thing">
+        <div class="thing_in_right">
+            <div style="height: 400px">
+                <div id="sign_up_title">註冊 / 登入</div>
+                <div style="justify-content: space-between;">
+                    <div style="flex-direction: row; display: flex; justify-content: space-between;">
+                        <p id="signingMode" style="font-size: 14px;">常用信箱</p>
+                        <a id="signingChange" style="font-size: 14px; margin-top: 8px" onclick="changeMode()">使用手機登入</a>
+                    </div>
+                        <div class="upon" style="flex-direction: row;">
+                        <input class="EmailAndPassword" id="inputMode" name="email" autocomplete="email" placeholder="輸入信箱" type="email" value>
+                        </div>
+                    </div>
+                <div style="justify-content: space-between;">
+                    <p style="font-size: 14px;">密碼</p>
+                    <input class="EmailAndPassword" name="password" autocomplete="current-password" placeholder="輸入密碼" type="password" value>
+                </div>
+                <button type="submit" id="send_botton">
+                    <div style="color: white">註冊 / 登入</div>
+                </button>
+                <div class="otherway">
+                    <a>未收到驗證信</a>
+                    &nbsp&nbsp
+                    <a>忘記密碼</a>
+                </div>
+            </div>
+        </div>
+        <p style="font-size: 14px; line-height: 2; margin-top: 30px; margin-bottom: 20px; text-align: center; color: #7f7f7f">註冊/登入即代表您同意遵守 <a style="color: #7f7f7f; text-decoration: underline;" href="https://www.dcard.tw/terms">Dcard 使用協議</a></p>
+    </div>
+</div>
+
+
+</body>
+</html>
+
